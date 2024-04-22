@@ -1,4 +1,3 @@
-l = ['hello', 'python', 'интерпретатор', 'pep8', "123"]
-l_len = [len(i) for i in l]
-
-print(l_len)
+original_list = ['hello', 'python', 'интерпретатор', 'pep8', "123"]
+lengths_list = list(map(len, original_list))
+print(lengths_list)
